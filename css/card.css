@@ -1,0 +1,138 @@
+@import url('colors.css');
+
+
+/* SMALL CARD */
+.card-small {
+    display: inline-flex;
+    border: 0.5px solid transparent;
+    flex-direction: column;
+    /* height: 420px; */
+    height: auto;
+    width: 390px;
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card-small-image {
+    position: relative;
+}
+
+.card-small-content {
+    /* border: 1px solid black; */
+    padding: 10px 0px 20px;
+}
+
+.card-small-content h4{
+    margin: 0px 0px 5px;
+    padding: 0 1rem;
+}
+
+.card-small-title {
+    display: block;
+    margin: 0px 0px 8px;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.card-small-content p{
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 1.8rem;
+}
+
+
+
+.card-small-image img {
+    height: 295px;
+    margin: 0;
+    width: 390px;
+    object-fit: cover;
+}
+
+/* SMALL CARD WITH BADGE */
+.card-small-image .simple-badge {
+    position: absolute;
+    top: 0px;
+    left: -4px;
+}
+
+/* SMALL CARD WITH DISMISS BUTTON */
+
+.card-small-image .card-small-dismiss {
+    color: white;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* SMALL CARD WITH TEXT OVERLAY */
+
+.card-small-text-overlay {
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.text-overlay-card {
+    position: relative;
+    display: inline-block;
+    height: 16rem;
+    width: 28rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.text-overlay-card img {
+    /* height: auto; */
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.2; */
+    filter: brightness(50%);
+}
+
+.text-overlay-content {
+    position: absolute;
+    color: white;
+    top: 0px;
+    padding: 1rem;
+}
+
+/* TEXT ONLY CARD */
+.text-card {
+    border: 1px solid transparent;
+    /* border-top: 1px solid black;
+    border-left: 1px solid black; */
+    height: auto;
+    width: 390px;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* HORIZONTAL CARD */
+
+.horizontal-card {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 80%;
+    height: 400px;
+    /* margin: 0 auto; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-size: 1em;
+
+}
+
+.horizontal-card-img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+}
+
+.horizontal-card-content {
+    width: 30%;
+    padding: 1rem;
+}
+
+

@@ -1,0 +1,12 @@
+@import url('colors.css');
+
+.toast {
+    position: relative;
+}
+
+.toast-dismiss {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

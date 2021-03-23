@@ -1,0 +1,31 @@
+@import url('colors.css');
+
+.spaced-list {
+    padding: 0px 0px;
+}
+
+.spaced-list li {
+    list-style: none;
+    border-bottom: 0.5px solid black;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+.stacked-notification-list {
+    padding: 0px 0px;
+}
+
+.stacked-notification-list li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0.4rem 1rem;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+}
+
+.stacked-notification-list span {
+    margin-left: 10px;
+    vertical-align: middle;
+}

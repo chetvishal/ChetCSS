@@ -1,0 +1,40 @@
+/* component design */
+@import url('avatar.css');
+@import url('alert.css');
+@import url('button.css');
+@import url('image.css');
+@import url('badge.css');
+@import url('background-colors.css');
+@import url('card.css');
+@import url('form.css');
+@import url('list.css');
+@import url('navbar.css');
+@import url('modal.css');
+@import url('rating.css');
+@import url('text-utilities.css');
+@import url('grid.css');
+@import url('toast.css');
+@import url('documentation-site.css');
+
+h3 {
+    /* text-decoration: underline; 
+    font-size: 2rem; */
+}
+.heading {
+    margin: 20px 0px;
+    text-decoration: underline; 
+    text-decoration: underline; 
+    font-size: 2rem;
+}
+
+.main-heading {
+    margin: 20px 0px;
+    text-decoration: underline; 
+    font-size: 2rem;
+}
+
+.sub-heading {
+    margin: 20px 0px;
+    /* text-decoration: underline;  */
+    font-size: 1rem;
+}

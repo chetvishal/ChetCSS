@@ -1,0 +1,39 @@
+@import url('colors.css');
+
+.navbar {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--success);
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    vertical-align:middle;
+}
+
+.nav-list {
+    display: inline-flex;
+    margin: 0;
+    padding: 0px 0px;
+    align-items: center;
+}
+
+.nav-list li{
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 1.1rem;
+    padding: 2px 5px;
+}
+
+.nav-list li:hover {
+    background-color: red;
+}

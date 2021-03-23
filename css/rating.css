@@ -1,0 +1,11 @@
+@import url('colors.css');
+
+.rating {
+    color: var(--primary);
+    font-size: 1.5rem;
+    display: inline;
+}
+
+.rating i:hover {
+    color: var(--warning);
+}

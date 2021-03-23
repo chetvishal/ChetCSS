@@ -1,0 +1,55 @@
+@import url("colors.css");
+
+.modal-body {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+
+  /* border: 1px solid black; */
+  /* position:absolute;
+  top: 15em; */
+  /* left: 13em; */
+  padding: 1rem;
+  width: 60%;
+  /* margin: 5px auto; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+  background-color: white;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-btns button {
+  margin: 0px 5px;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.modal-btns button:hover {
+  cursor: pointer;
+}
+
+.modal-btns button:focus {
+  outline: none;
+}
