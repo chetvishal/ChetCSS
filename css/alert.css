@@ -5,16 +5,11 @@
     border: 0.5px solid transparent;
     padding: 1rem;
     margin: 10px 0px;
-    /* display: flex;
-    justify-content: space-between; */
-    /* background-color: #fafafa; */
 }
 
 .alert-danger {
-    /* background-color: #fafafa; */
     background-color: var(--danger-light);
     color: var(--danger);
-    /* border-color: #ece9e9; */
 }
 
 .alert-primary {

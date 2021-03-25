@@ -1,17 +1,24 @@
+// float button 
+
+const actionBtn = document.querySelector('.action');
+actionBtn.addEventListener('click', actionToggle);
+
+function actionToggle(){
+    var action = document.querySelector('.action');
+    action.classList.toggle('active');
+}
+
+
 // MODAL SCRIPT
-const triggerModal = document.getElementsByClassName("modal-trigger-btn")[0];
 const modal = document.getElementsByClassName("modal-body")[0];
-const shutModal = document.getElementsByClassName("shut-modal")[0];
 
-triggerModal.addEventListener("click", () => {
+function showModal(){
     modal.style.display = "block";
-    console.log("your triggering");
-});
+}
 
-shutModal.addEventListener("click", () => {
+function shutModal(){
     modal.style.display = "none";
-    console.log("your shuutting down");
-});
+}
 
 // RATING
 const ratingStar = document.getElementsByClassName('rating-star');
@@ -31,3 +38,6 @@ for (let i = 0; i < ratingStar.length; i++) {
         }
     })
 }
+
+
+

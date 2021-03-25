@@ -48,21 +48,58 @@
                 sed.
               </p>
               <div class="modal-btns">
-                <button class="modal-btn-1 shut-modal">Agree</button>
+                <button class="modal-btn-1 shut-modal" onclick="shutModal();">Agree</button>
                 <button class="modal-btn-1">Disagree</button>
               </div>
             </div>
           </div>
-          <button class="modal-trigger-btn">Try Modal</button>
+          <button class="modal-trigger-btn" onclick="showModal();">Try Modal</button>
 
-          <iframe
-  src="https://carbon.now.sh/embed/HjR804rS6NFvvGwXLHky"
-  style="width: 680px; height: 461px; border:0;  overflow:hidden;display: block;margin-top: 2rem;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+          <div class="display-code" style="position: relative;z-index: -5;">
+            <pre class="language-markup"><code><!--
+          <div class="modal-body">
+            <div class="modal" id="modal">
+              <h2>Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                aspernatur saepe, necessitatibus libero repudiandae accusantium
+                tempora itaque pariatur error, dignissimos laboriosam explicabo
+                laudantium est ipsum unde. Beatae laudantium mollitia sit molestias
+                sed.
+              </p>
+              <div class="modal-btns">
+                <button class="modal-btn-1 shut-modal" onclick="shutModal();">Agree</button>
+                <button class="modal-btn-1">Disagree</button>
+              </div>
+            </div>
+          </div>
+          <button class="modal-trigger-btn" onclick="showModal();">Try Modal</button>
+            --></code></pre>
+          </div>
+
+          <div class="action">
+            <button class="btn-float bg-primary doc-float"><i class="fas fa-plus"></i></button>
+            <ul>
+              <a href="./avatar.html"><li>Avatar</li></a>
+              <a href="./alert.html"><li>Alert</li></a>
+              <a href="./badge.html"><li>Badge</li></a>
+              <a href="./button.html"><li>Button</li></a>
+              <a href="./card.html"><li>Card</li></a>
+              <a href="./image.html"><li>Image</li></a>
+              <a href="./input.html"><li>Input</li></a>
+              <a href="./list.html"><li>Lists</li></a>
+              <a href="./navigation.html"><li>Navigation</li></a>
+              <a href="./modal.html"><li class="current-item">Modal</li></a>
+              <a href="./rating.html"><li>Rating</li></a>
+              <a href="./grid.html"><li>Grid</li></a>
+              <a href="./text-util.html"><li>Text utilities</li></a>
+              <a href="./toast.html"><li>Toast</li></a>
+            </ul>
+          </div>
 
         </div>
-
+        <!-- JAVASCRIPT -->
+    <script src="../prism.js"></script>
     <script src="../script.js"></script>
     <script
       src="https://kit.fontawesome.com/0c0020b1b8.js"

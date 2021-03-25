@@ -2,7 +2,6 @@
 
 .navbar {
     display: flex;
-    /* border: 1px solid black; */
     justify-content: space-between;
     padding: 1rem;
     background-color: var(--success);

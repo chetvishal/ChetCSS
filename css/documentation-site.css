@@ -6,20 +6,14 @@
 
 .main-body {
   display: grid;
-  /* width: 1000px; */
-  /* grid-template-areas: "sidebar main-content main-content main-content main-content main-content"; */
   grid-template-columns: 20% 80%;
 }
 
 .main-body-sidebar {
-  /* grid-area: sidebar; */
-  /* border-right: 1px solid black; */
   padding: 1rem;
-  /* width: 200px; */
 }
 
 .main-body-content {
-  /* grid-area: main-content; */
   padding: 1rem;
 }
 
@@ -28,7 +22,6 @@
 .sidebar-list {
   list-style: none;
   position: fixed;
-  /* text-align: center; */
   line-height: 2.4rem;
 }
 
@@ -49,7 +42,7 @@
   display: block;
 }
 
-/* INDEX.JS */
+/* INDEX.JS/FRONT PAGE */
 
 .index-main {
   text-align: center;
@@ -63,6 +56,100 @@
 
 .index-main p{
   font-size: 1.1rem;
+}
+
+/* DISPLAY CODE PRISM.JS */
+.display-code {
+  max-width: 60%; 
+  margin: 2rem 0px 10px;
+}
+
+/* FLOATING BUTTON */
+.action {
+    display:block;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 5;
+    display: none;
+}
+
+.action.active i {
+  transform: rotate(135deg);
+}
+
+.action ul {
+  text-align: center;
+    position: absolute;
+    list-style: none;
+    line-height: 2.2rem;
+    bottom: 45px;
+    right: 2rem;
+    min-width: 200px;
+    visibility: hidden;
+    transition: 0.3s;
+    color: white;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.action .current-item{
+  color: black;
+}
+
+.action a{
+  color: white;
+  text-decoration:none;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.action.active ul{
+  visibility: visible;
+}
+.doc-float {
+  outline: none;
+}
+
+/* HEADINGS */
+
+.heading {
+  margin: 20px 0px;
+  text-decoration: underline; 
+  text-decoration: underline; 
+  font-size: 2rem;
+}
+
+.main-heading {
+  margin: 20px 0px;
+  text-decoration: underline; 
+  font-size: 2rem;
+}
+
+.sub-heading {
+  margin: 20px 0px;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px){
+  .main-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-body-sidebar {
+    display: none;
+  }
+  .sidebar-list {
+    display: flex;
+  }
+  .display-code{
+    max-width: 100%;
+    z-index: -5;
+  }
+  .action {
+    display: inline;
+  }
 }
 
 
